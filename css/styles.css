@@ -1,0 +1,328 @@
+
+body{
+   background-color: #e8baec;
+}
+
+/*
+.col{
+    border: 1px solid #ffffff;
+}
+*/
+
+.col-1{
+    max-width: 85px;
+    margin-right: 10px;
+}
+
+.derecha{
+    margin-right: 20px;
+    max-width: 142px;
+}
+
+/* Menu */
+
+ul, ol, li{
+    list-style: none;
+}
+
+/* Ocultar */
+.ocultar{
+    display: none;
+}
+
+/* Espacios */
+.top{
+    padding-top: 2%;
+}
+
+.texto{
+    margin: 5%;
+}
+
+.derecha1{
+    max-width: 90px;
+}
+
+.derecha2{
+    margin-right: 10px;
+}
+
+.derecha3{
+    max-width: 100px;
+}
+
+.derecha4{
+    max-width: 75px;
+}
+
+.derecha5{
+    max-width: 140px;
+}
+
+.derecha6{
+    max-width: 155px;
+}
+/* Cuadros */
+.arriba{
+    margin-top: 20px;
+}
+
+.col1{
+    border: 1px solid black;
+}
+
+/* Meses */
+.menu{
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px;
+    padding: 1px;
+    min-width: 50px;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.lista:hover{
+    display: block;
+}
+
+.nav{
+    min-width: 50px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    display: block;
+}
+
+/*
+.nav > li{
+    float: left;
+}
+*/
+
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 100px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.mes{
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid black;
+    min-width: 50px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    display: block;
+}
+
+/* Medidas Columnas */
+
+.mh-1000{
+    min-height: 1000px;
+}
+
+.mh-300{
+    min-height: 250px;
+}
+
+/* Audio */
+
+.audio{
+    margin: 20px 600px 10px 500px;
+}
+
+
+/* Fotos */
+
+.borde{
+    margin: 3% 3% 0% 3%;
+}
+
+.mh-200{    
+    min-height: 200px;
+}
+
+img{
+    border: 1px solid black;
+}
+
+.colfotos{
+    min-width: 150px;
+    max-width: 200px;
+}
+
+.colfotomid{
+    min-height: 50px;
+}
+
+/* Cartas */
+
+.carta{
+    min-width: 320px;
+    max-width: 320px;
+}
+
+.titulo{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 9px;
+    font-style: italic;
+}
+
+.fotocarta{
+    border: none;
+    float:none;
+}
+
+/* Mensajes*/
+
+.colmensaje{
+    margin: 10px 400px 10px 400px;
+    border-radius: 10px;
+    min-width: 400px;
+    background-color: #ecdb8d;
+    display: none;
+}
+
+.mensaje{
+    margin: 20px 10px 20px 10px;
+}
+
+.letramensaje{
+    font-style: italic;
+}
+
+.volver{
+    border-radius: 3px;
+    border: none;
+    margin: 5px;
+    font-size: 16px;
+    float: right;
+}
+
+/* Fecha */
+
+.borde1{
+    border: 1px solid #ffceed;
+}
+
+/* Fondos */
+
+.bg-blanco{
+    background-color: white;
+}
+
+
+/* Canciones  */
+
+.cancion{
+    min-width: 230px;
+    min-height: 230px;
+    max-width: 230px;
+    max-height: 230px;
+    border-radius: 10px;
+}
+
+.nombre{
+    margin-top: 10px;
+    min-width: 230px;
+    max-width: 230px;
+    color: white;
+    opacity: 100%;
+}
+
+.fotocancion{
+    border-radius: 10px;
+    border: none;
+}
+
+.autor{
+    font-size: 14px;
+}
+
+.fondo{
+    background-color: #99afbd ;
+    border-radius: 3px;
+    opacity: 10%;
+}
+
+/* Ventana videos */
+
+.ventana{
+    width: 40%;
+    max-height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    left: 33%;
+    top: 40%;
+    display: none;
+}
+
+.cerrar{
+    position: absolute;
+    right: 3px;
+}
+
+/*video*/
+
+.costados{
+    max-width: 250px;
+    margin-left: 525px;
+}
+
+/* Letras */
+
+h1{
+    font-family: serif;
+}
+
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.desc{
+    font-size: 22px;
+}
+
+/*Comentarios:
+-Fotos
+-Escoger meses
+-Fecha en cada foto
+-Mensajes (cartas)
+-Alguna cosa de preguntas con algo al final
+-Ponerlo en orden
+
+/* Hovers */
+
+a:hover{
+    background-color: #99afbd;
+}
+
+button:hover{
+    background-color: #b6d7ea;
+}
+
+a{
+    color: black;
+}
+
+button{
+    font-size: 30px;
+}
+
+li:hover{
+    background-color: #b6d7ea;
+}
+
+.fotocarta:hover{
+    width: 310px;
+    transition: 0.7s;
+}
